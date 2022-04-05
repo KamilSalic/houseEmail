@@ -34,7 +34,7 @@
         padding: 0;
         margin-bottom: 0;
       }
-      .imageFix {
+      .house-image {
         display: block;
       }
       table,
@@ -54,13 +54,29 @@
           Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
       }
       @media (max-width: 600px) {
-        .outer-container {
+        .outer-container
+        {
           width: 100% !important;
         }
         .house-image {
-          width: 100% !important;
+          width: 90% !important;
+        }
+        .house-image-long {
+          width: 98% !important;
         }
       }
+      @media (max-width: 400px) {
+        .house-image {
+          width: 88% !important;
+        }
+        .house-image-long {
+          width: 94% !important;
+        }
+        .follow-text-table {
+          width: 90% !important;
+        }
+      }
+    
     </style>
   </head>
   <body style="padding: 0; margin: 0">
@@ -78,6 +94,7 @@
         margin: 0 auto;
         background: #ffffff;
         background-color: #ffffff;
+        table-layout:fixed;
       "
     >
       <tr>
@@ -91,7 +108,7 @@
               border-spacing: 0;
               margin: 0;
               padding: 0;
-              width: 100%;
+              width: 90%;
               margin: 0 auto;
               background: #f0f8ff;
               background-color: #f0f8ff;
@@ -101,51 +118,50 @@
             <tr align="center">
               <td align="center">
                 <table
-                  class="logo-title"
+                  class="logo-table"
                   cellpadding="0"
                   cellspacing="0"
                   border="0"
                   align="center"
-                  style="width: 100%; margin: 0 auto"
+                  style="margin: 0 auto"
                 >
                   <tr align="center">
                     <td align="center">
                       <img
-                        style="margin: 0 auto"
-                        width="200"
+                        style="margin: 0 auto; width: 200px;"
                         src="https://drive.google.com/uc?id=1RyN5ialQArImbapfKqxPoMwuOzmiqqUr"
                       />
                     </td>
                   </tr>
                 </table>
                 <table
-                  class="logo-title"
+                  class="title-table"
                   cellpadding="0"
                   cellspacing="0"
                   border="0"
                   align="center"
                   style="
-                    max-width: 540px;
+                    padding: 0;
+                    margin: 0;
                     width: 100%;
-
                     font-family: 'Rubik', sans-serif;
-                  "
-                >
+               ">
                   <tr>
-                    <td style="max-width: 50%; width: 100%">
+                    <td>
                       <p
                         style="
-                          width: 100%;
                           font-size: 48px;
                           color: #000000;
                           font-weight: 400;
                           text-align: right;
+                          margin-bottom: -1px;
+                          width: 100%;
                         "
                       >
                         Dream
                       </p>
                     </td>
-                    <td style="max-width: 50%; width: 100%">
+                    <td>
                       <p
                         style="
                           height: 3px;
@@ -163,8 +179,8 @@
                           height: 3px;
                           background: #000000;
                           background-color: #000000;
+                          margin-top: -15px;
                           width: 100%;
-                          margin-top: -16px;
                         "
                       ></p>
                     </td>
@@ -189,85 +205,83 @@
                   cellspacing="0"
                   border="0"
                   align="center"
-                  style="max-width: 540px; width: 100%"
+                 
                 >
                   <tr>
-                    <td align="center" style="max-width: 100%; width: 100%">
-                      <p style="width: 100%">
+                    <td align="center">
+                      <p>
                         New Houses are online and ready to view!
                       </p>
                     </td>
                   </tr>
                 </table>
                 <table
+                  class="house-images-table"
                   cellpadding="0"
                   cellspacing="0"
                   border="0"
                   align="center"
                   style="
-                    max-width: 540px;
-                    width: 100%;
                     margin-top: 100px;
                     margin-bottom: 10px;
+                    margin-left: 10px; margin-right: 10px;
+                    table-layout: fixed;
                   "
+                 
                 >
                   <tr>
-                    <td align="center" style="max-width: 40%; width: 100%">
+                    <td align="left">
                       <img
-                        width="255"
-                        class="house-image"
+                        
+                        class="house-image-long"
                         style="
-                          height: 415px;
+                          height: 406px;
                           border: 5px solid #000000;
                           margin-right: 5px;
+                          width: 280px;
                         "
-                        src="https://drive.google.com/uc?id=15-GGX_JPXnPXjXlSCbDhHTFlk42C2Ztg"
+                     src="https://drive.google.com/uc?id=15-GGX_JPXnPXjXlSCbDhHTFlk42C2Ztg"
                       />
                     </td>
-                    <td align="center" style="max-width: 40%; width: 100%">
+                    <td align="right">
                       <img
-                        width="255"
                         class="house-image"
                         style="
-                          height: 193px;
+                          height: 196px;
                           border: 5px solid #000000;
-                          margin-bottom: 14px;
-                          margin-left: 5px;
+                          margin-bottom: 4px;
+                          width: 280px;
                         "
-                        src="https://drive.google.com/uc?id=19h2OR-ISipxbkIK8j3KKuN-165qfEwMz"
+                          src="https://drive.google.com/uc?id=19h2OR-ISipxbkIK8j3KKuN-165qfEwMz"
                       />
-
                       <img
-                        width="255"
                         class="house-image"
                         style="
-                          height: 193px;
+                          height: 196px;
                           border: 5px solid #000000;
-                          margin-left: 5px;
+                          margin-bottom: 4px;
+                          width: 280px;
                         "
-                        src="https://drive.google.com/uc?id=1BGlsJTjqnzoLUOMpBGcvGjn-E314ToKh"
+                       src="https://drive.google.com/uc?id=1BGlsJTjqnzoLUOMpBGcvGjn-E314ToKh"
                       />
                     </td>
                   </tr>
                 </table>
-              </td>
-            </tr>
-          </table>
-          <table
+             <table
+             class="description-and-price"
             cellpadding="0"
             cellspacing="0"
             border="0"
             align="center"
             style="
-              max-width: 540px;
-              width: 100%;
               margin-top: 20px;
               margin-bottom: 20px;
+              table-layout: fixed;
             "
-          >
+            >
             <tr>
               <td>
-                <p style="text-align: center; color: #000000; margin-right: 10px; margin-left: 10px;">
+                <p style="text-align: center; color: #000000;; margin: 0 auto; width: 96%;">
                   One of the best properties is currently on sale. Located in
                   south-east London. Set within a private gated is this highly
                   individual and substantial family home. Newly constructed to
@@ -302,7 +316,7 @@
                       strokecolor="#000000"
                       fill="t"
                     >
-                      <v:fill type="tile" src="#" color="#f0f8ff" />
+                      <v:fill type="tile" src="#" color="#ffffff" />
                       <w:anchorlock />
                       <center
                         style="
@@ -318,9 +332,9 @@
                   [endif]--><a
                     href="#"
                     style="
-                      background-color: #f0f8ff;
+                      background-color: #ffffff;
                       background-image: url(#);
-                      border: 1px solid #000000;
+                      border: 3px solid #000000;
                       border-radius: 5px;
                       color: #000000;
                       display: inline-block;
@@ -340,6 +354,9 @@
                 </div>
               </td>
             </tr>
+             </table>
+              </td>
+            </tr>
           </table>
           <table
             class="follow-text-table"
@@ -349,8 +366,7 @@
             align="center"
             style="
               margin-top: 150px;
-              
-              width: 300px !important;
+              width: 300px;
             "
           >
             <tr>
@@ -405,10 +421,10 @@
                         height: 35px;
                         background: #ffffff;
                         background-color: #ffffff;
-                        padding: 0.2em;
+                        padding: 3px;
                         border-radius: 10px;
                       "
-                      src="https://drive.google.com/uc?id=1IwyDshDytDRowVJ8WR6By6M-VVvDgwk0"
+                       src="https://drive.google.com/uc?id=1IwyDshDytDRowVJ8WR6By6M-VVvDgwk0"
                     />
                   </a>
            
@@ -421,7 +437,7 @@
                       height: 35px;
                       background: #ffffff;
                       background-color: #ffffff;
-                      padding: 0.2em;
+                      padding: 3px;
                       border-radius: 10px;
                     "
                     src="https://drive.google.com/uc?id=17I3aidp-jj3KWGiFs_hgD_N8H1vOf0Eg"
@@ -435,12 +451,11 @@
           cellspacing="0"
           border="0"
           align="center"
-          width="540"
-          style="margin-top: -80px"
+          style="margin-top: -40px; width: 100%;text-align:center"
         >
           <tr>
             <td>
-              <img width="540" src="https://drive.google.com/uc?id=1sytMWNoWuqhioAWTZiE-f9ftcbWwKhoX" />
+              <img class="footer-image" style="width: 90%;" src="https://drive.google.com/uc?id=1sytMWNoWuqhioAWTZiE-f9ftcbWwKhoX" />
             </td>
           </tr>
         </table>
@@ -452,7 +467,8 @@
             align="center"
             style="
               margin-bottom: 10px;
-              width: 540px !important;
+              width: 100%;
+              table-layout: fixed;
             "
           >
             <tr>
